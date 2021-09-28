@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Credenciales Firebase
+nodefb-32e8e-firebase-adminsdk-7kv25-511e2477e8.json
