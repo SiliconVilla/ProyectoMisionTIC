@@ -1,0 +1,28 @@
+{
+  "name": "ProyectoMisionTIC",
+  "version": "1.0.0",
+  "description": "Roles Asignados:",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiliconVilla/ProyectoMisionTIC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SiliconVilla/ProyectoMisionTIC/issues"
+  },
+  "homepage": "https://github.com/SiliconVilla/ProyectoMisionTIC#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "firebase": "^9.1.0",
+    "firebase-admin": "^9.11.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.13"
+  }
+}
