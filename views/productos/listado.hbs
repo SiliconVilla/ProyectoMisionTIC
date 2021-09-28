@@ -1,17 +1,32 @@
-<h1>Bienvenido a NodeJS -- HTML</h1>
+<h3>Menú - Comidas Rápidas</h3
 
 <div class="container p-4">
-    <div class="row">
-        <div class="col-md-3">
-            <div class="card text-center">
-                <div class="card-body">
-                    Cuerpo de la tarjeta creada
-                    <p>Nombre del Producto</p>
-                    <p>Descripción del Producto</p>
-                    <p>Precio del Producto</p>
-                    <p>Imágen del Producto</p>
+    {{#if productos}}
+        {{#each productos}}
+            <div class="col-md-3 p-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        Producto
+                    </div>
+                    <div class="card-footer">
+                        <div class="list-group">
+                            <p>{{nombre}}</p>
+                            <p>{{descripcion}}</p>
+                            <p>{{precio}}</p>
+                            <p>{{imagen}}</p>
+                            <div class="list-group-item">
+                                <a href="" class="btn btn-info">
+                                    Editar
+                                </a>
+                                <a href="" class="btn btn-danger">
+                                    Eliminar
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
+        {{/each}}
+    {{/if}}
 </div>
